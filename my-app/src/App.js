@@ -19,13 +19,13 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home email={email} loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/Signup" element={<Signup />} />
-          <Route path="/efridge" element={<Efridge />} />
-          <Route path="/view" element={<View />} />
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/Remy" element={<Home email={email} loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
+          <Route path="/Remy/login" element={<Login />} />
+          <Route path="/Remy/profile" element={<Profile />} />
+          <Route path="/Remy/Signup" element={<Signup />} />
+          <Route path="/Remy/efridge" element={<Efridge />} />
+          <Route path="/Remy/view" element={<View />} />
+          <Route path="/Remy/profile" element={<Profile />} />
         </Routes>
       </BrowserRouter>
     </div>
